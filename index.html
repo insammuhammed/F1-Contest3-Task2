@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Task 2</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="sectionleft">
+            <form action="#" method="post">
+                <div>
+                    <label for="text">Text Field *</label> <br>
+                    <input type="text" id="text" name="text field" placeholder="Input Text" required>
+                </div><br>
+
+                <div> <label for="select">Select Field </label><br>
+                    <select name="select" id="select">
+                        <option value="select">Select</option>
+                        <option value="item1">item1</option>
+                        <option value="item2">item2</option>
+                        <option value="item3">item3</option>
+                    </select>
+                </div><br>
+
+
+                <div><label for="txtarea">Text Area</label><br>
+                    <textarea name="textarea" id="txtarea" cols="33" rows="12"></textarea>
+                </div>
+            </form>
+        </div>
+        <div id="sectionright">
+            <form action="#" method="post">
+
+                <div class="search">
+                    <i class="fa-solid fa-search"></i>
+                    <input type="text" class="inputsearch">
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" name="checkbox" checked>
+                    <div class="check">Checkbox</div>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" name="radio" id="radio" checked>
+                    <div class="radiobtn">Radio</div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
